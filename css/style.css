@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Open Sans", sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+/* global css start */
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+/* global css end */
+
+/* Header css start */
+.header{
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #eee;
+}
+.inner-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin: 23px 10px;
+    color: #0665C4;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.button-group{
+    display: flex;
+}
+.btn-info {
+    display: inline-block;
+    margin: 10px 0px 0px 5px;
+    background: #0665C4;
+    padding: 12px 30px;
+    color: white;
+    border: 1px solid #0665C4;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 1s;
+}
+.btn-info:hover{
+    background: #00AEEF;
+    color: #fff;
+    border: 1px solid #00AEEF;
+}
+/* Header css end */
+
+/* banner css start */
+.banner{
+    flex-basis: 100%;
+    padding: 80px 0px;
+    background: url("../images/Hero-BG.jpg") center no-repect;
+    background-size: cover;
+}
+.inner-banner{
+    display: flex;
+    align-items: center;
+}
+
+.left-banner{
+    flex-basis: 50px;
+}
+
+.right-banner{
+    flex-basis: 50px;
+    text-align: center;
+}
+.right-banner{
+    width: 100%;
+}
+/* banner css end */
