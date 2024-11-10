@@ -6,6 +6,7 @@ body{
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     line-height: 24px;
+    color: #526375;
 }
 h1, h2, h3, h4, h5, h6{
     font-family: "Open Sans", sans-serif;
@@ -24,8 +25,8 @@ a, a:hover{
 /* Header css start */
 .header{
     width: 100%;
-    padding: 10px 0px;
-    background-color: #eee;
+    padding: 5px 0px;
+    background-color:#eee;
 }
 .inner-header{
     display: flex;
@@ -41,7 +42,7 @@ a, a:hover{
     margin: 23px 10px;
     color: #0665C4;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
     text-transform: capitalize;
 }
 
@@ -68,10 +69,9 @@ a, a:hover{
 
 /* banner css start */
 .banner{
-    flex-basis: 100%;
-    padding: 80px 0px;
-    background: url("../images/Hero-BG.jpg") center no-repect;
-    background-size: cover;
+    width: 100%;
+    margin: 20px 0px;
+    background: url("../images/Hero-BG.jpg") center no-repeat ;
 }
 .inner-banner{
     display: flex;
@@ -79,14 +79,539 @@ a, a:hover{
 }
 
 .left-banner{
-    flex-basis: 50px;
+    width: 47%;
+}
+.left-banner h1{
+    font-size: 42px;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: #0665C4;
+}
+.left-banner p{
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #0665C4;
+    margin: 10px 0px;
+}
+.left-banner .btn-info{
+    display: inline-block;
+    margin: 10px 0px 0px 0px;
+    border-radius: 8px;
+    background: #0665C4;
+    padding: 12px 30px;
+    color: white;
+    border: 1px solid #0665C4;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 1s;
+}
+.left-banner .btn-info:hover{
+    background: #00AEEF;
+    color: #fff;
+    border: 1px solid #00AEEF;
 }
 
 .right-banner{
-    flex-basis: 50px;
+    width: 53%;
     text-align: center;
 }
-.right-banner{
+/* banner css end */
+
+/* feature css start */
+.feature{
+    width: 100%;
+    padding: 80px 0px;
+}
+.inner-feature{
+    display: flex;
+}
+
+.graduates{
+    display: flex;
+    flex-basis: 30%;
+    background: #F9799A;
+    margin: 0px 17px;
+    padding: 20px 15px 10px 15px;
+    border-radius: 8px;
+}
+
+.earned{
+    display: flex;
+    flex-basis: 30%;
+    background: #61C4D8;
+    margin: 0px 17px;
+    padding: 20px 15px 10px 15px;
+    border-radius: 8px;
+}
+
+.members{
+    display: flex;
+    flex-basis: 30%;
+    background: #0E72CC;
+    margin: 0px 17px;
+    padding: 20px 15px 10px 15px;
+    border-radius: 8px;
+}
+
+.icon{
+    flex-basis: 15%;
+}
+.icon i{
+    float: left;
+    padding-right: 15px;
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.content{
+    flex-basis: 85%;
+}
+.content h3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2em;
+    color: #fff;
+}
+.content p{
+    font-size: 15px;
+    color: #fff;
+    margin-top: 10px;
+    font-weight: 400;
+    line-height: 1.7em;
+    margin-bottom: 10px;
+}
+/* feature css end */
+
+/* project css start */
+.learning{
+    width: 100%;
+    padding-bottom: 60px;
+}
+.inner-learning{
+    display: flex;
+    align-items: center;
+}
+
+.left-learning{
+    width: 45%;
+    margin: 0px 35px;
+}
+.left-learning span{
+    display: block;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #3C1F3C;
+}
+.left-learning h2{
+    font-size: 45px;
+    line-height: 46px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #07324F;
+}
+.left-learning p{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #526387;
+}
+.left-learning .btn-info{
+    display: inline-block;
+    margin: 10px 0px 0px 0px;
+    border-radius: 8px;
+    background: #0665C4;
+    padding: 12px 30px;
+    color: white;
+    border: 1px solid #0665C4;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 1s;
+}
+.left-learning .btn-info:hover{
+    background: #00AEEF;
+    color: #fff;
+    border: 1px solid #00AEEF;
+}
+
+.right-learning{
+    width: 55%;
+}
+.right-learning img{
     width: 100%;
 }
-/* banner css end */
+/* project css end */
+
+/* support css start */
+.support{
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #f5f7fa;
+}
+.inner-support{
+    display: flex;
+    align-items: center;
+}
+
+.left-support{
+    width: 55%;
+}
+.left-support img{
+    width: 100%;
+}
+
+.right-support{
+    width: 45%;
+    padding: 0px 30px;
+    margin: 0px 35px;
+}
+.right-support span{
+    display: block;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #3C1F3C;
+}
+.right-support h2{
+    font-size: 45px;
+    line-height: 46px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #07324F;
+}
+.right-support p{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #526387;
+}
+.right-support .btn-info{
+    display: inline-block;
+    margin: 10px 0px 0px 0px;
+    border-radius: 8px;
+    background: #0665C4;
+    padding: 12px 30px;
+    color: white;
+    border: 1px solid #0665C4;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 1s;
+}
+.right-support .btn-info:hover{
+    background: #00AEEF;
+    color: #fff;
+    border: 1px solid #00AEEF;
+}
+/* support css end */
+
+/* earn css start */
+.earn{
+    width: 100%;
+    padding: 80px 0px;
+    background: #fafafa;
+}
+.inner-earn{
+    display: flex;
+    align-items: center;
+}
+
+.left-earn{
+    width: 45%;
+    margin: 0px 35px;
+}
+.left-earn span{
+    display: block;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #3C1F3C;
+}
+.left-earn h2{
+    font-size: 45px;
+    line-height: 46px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #07324F;
+}
+.left-earn p{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #526387;
+}
+.left-earn .btn-info{
+    display: inline-block;
+    margin: 10px 0px 0px 0px;
+    border-radius: 8px;
+    background: #0665C4;
+    padding: 12px 30px;
+    color: white;
+    border: 1px solid #0665C4;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 1s;
+}
+.left-earn .btn-info:hover{
+    background: #00AEEF;
+    color: #fff;
+    border: 1px solid #00AEEF;
+}
+
+.right-earn{
+    width: 55%;
+}
+.right-earn img{
+    width: 100%;
+}
+/* earn css end */
+
+/* courses css start */
+.courses{
+    width: 89.4%;
+    padding: 80px;
+    background: url("../images/background.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.top{
+    width: 100%;
+    color:#fff;
+    text-align: center;
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.inner-courses{
+    display: flex;
+}
+
+.digital{
+    margin-right: 30px;
+    padding: 15px;
+    border-radius: 8px;
+    background: #fff;
+    margin-bottom: 30px;
+}
+.courses-digital{
+    background: url("../images/digital-marketing.jpg");
+    padding: 40px 40px;
+    background-size: cover;
+    border-radius: 8px;
+    text-align: center;
+}
+.courses-digital h3{
+    padding: 12px 0px;
+    font-size: 28px;
+    line-height: 0.8em;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.courses-digital h3 span{
+    font-size: 16px;
+}
+.courses-details h5{
+    padding: 15px 0px 0px 5px;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: black;
+}
+.courses-details p{
+    padding: 0px 5px 10px;
+    color: #000;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.web{
+    margin-right: 30px;
+    padding: 15px;
+    border-radius: 8px;
+    background: #fff;
+    margin-bottom: 30px;
+}
+.courses-web{
+    background: url("../images/full-stack.jpg");
+    padding: 40px 40px;
+    background-size: cover;
+    border-radius: 8px;
+    text-align: center;
+}
+.courses-web h3{
+    padding: 12px 0px;
+    font-size: 28px;
+    line-height: 0.8em;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.courses-web h3 span{
+    font-size: 16px;
+}
+
+.graphic{
+    margin-right: 30px;
+    padding: 15px;
+    border-radius: 8px;
+    background: #fff;
+    margin-bottom: 30px;
+}
+.courses-graphic{
+    background: url("../images/graphic.jpg");
+    padding: 40px 40px;
+    background-size: cover;
+    border-radius: 8px;
+    text-align: center;
+}
+.courses-graphic h3{
+    padding: 12px 0px;
+    font-size: 28px;
+    line-height: 0.8em;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.courses-graphic h3 span{
+    font-size: 16px;
+} 
+.shopify{
+    padding: 15px;
+    border-radius: 8px;
+    background: #fff;
+    margin-bottom: 30px;
+}
+.courses-shopify{
+    background: url("../images/shopify.jpg");
+    padding: 40px 40px;
+    background-size: cover;
+    border-radius: 8px;
+    text-align: center;
+}
+.courses-shopify h3{
+    padding: 12px 0px;
+    font-size: 28px;
+    line-height: 0.8em;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.courses-shopify h3 span{
+    font-size: 16px;
+}
+/* courses css end */
+
+/* image css start */
+.inner-image{
+    width: 100%;
+    margin: 60px 0px;
+}
+.inner-image img{
+    width: 100%;
+}
+/* image css end */
+
+/* address css start */
+.inner-address{
+    background: #0E72CC;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 60px;
+    padding: 100px 60px 80px 60px;
+    color: #fff;
+}
+.inner-address h4{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.inner-address p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.9em;
+}
+.num{
+    color: #fff;
+}
+/* address css end */
+
+
+/* footer css start */
+.footer{
+    width: 100%;
+    padding: 30px 0px 20px;
+}
+.inner-footer{
+    width: 100%; 
+}
+
+.top-footer{
+    width: 100%;
+    display: flex;
+}
+.shikhbe{
+    width: 25%;
+    padding: 0px 15px;
+}
+.connect{
+    width: 25%;
+    padding: 0px 15px;
+}
+.useful{
+    width: 25%;
+    padding: 0px 15px;
+}
+.socila{
+    width: 25%;
+    padding: 0px 15px;
+}
+.head{
+    color: #3572CC;
+    font-size: 16px;
+}
+.text-footer{
+    color: #91a3bb;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.9em;
+    padding: 10px 0px;
+}
+.list-menu{
+    list-style: none;
+    font-size: 16px;
+    line-height: 1.9em;
+    padding: 10px 0px;
+}
+.list-menu a{
+    color: #91a3bb;
+}
+
+.payment{
+    width: 100%;
+    margin: 10px 0px 10px;
+}
+.payment img{
+    width: 100%;
+}
+
+.copyright{
+    text-align: center;
+}
+/* footer css end */
